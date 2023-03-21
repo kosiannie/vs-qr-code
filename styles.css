@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Outfit&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background: hsl(212, 45%, 89%);
+    font-size: 15px;
+    font-family: 'Outfit' , sans-serif;
+}
+.card {
+    max-width: 16rem;
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;
+    background: hsl(0, 0%, 100%);
+    margin: 1rem;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+h1 {
+    text-align: center;
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+p {
+    font-size: 13px;
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.2;
+}
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    font-weight: 400;
+    margin-top: 5rem;
+    top: 0;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
